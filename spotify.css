@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(137, 45, 207);
+    
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav {
+   position: sticky;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+   
+}
+nav ul{
+   
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 50px;
+   
+    
+}
+nav ul li{
+   padding: 0 12px;
+}
+
+/* li{
+    text-decoration: none;
+} */
+.brand img{
+    width: 44px;
+    padding: 0 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url("bg.jpg");
+}
+.bottom{
+    position:relative;
+    height: 90px;
+    background-color: black;
+    color:white;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.bottom input{
+    cursor: pointer;
+}
+.bottom img{
+    
+    width: 40px;
+   padding: 10px;
+   
+}
+.GIF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+   left: 20vh;
+   padding-left: 10px;
+}
+.GIF img{
+    opacity: 0;
+    transition: 0.3 ease-in-out;
+}
+#myProgessbar{
+    width: 80vw;
+}
+.icons{
+      margin: 5px;
+    color: white;
+   margin: 15px;
+   cursor: pointer;
+  
+}
+/* .songlist{
+    align-items: spac;
+} */
+.songItem{
+   background-color: white;
+   color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 40px;
+   margin-top: 10px;
+   padding: 0 10px;
+   border-radius: 10px;
+}
+.songItem img{
+    text-align: center;
+  width: 35px;
+ padding: 0px 0px;
+ border-radius: 100%;
+}
+.timeOfsong{
+    padding: 0 20px;
+}
+.timeOfsong i{
+    cursor: pointer;
+}
+
+.gif2{
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
